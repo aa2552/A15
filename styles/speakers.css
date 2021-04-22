@@ -1,0 +1,194 @@
+/* the styles for the elements */
+.shadow {
+    text-shadow: 2px 2px #800000;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid #931420;
+    background-color: #fffded;
+}
+
+h1{
+    font-size: 150%;
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+article{
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+article h2 {
+    padding-top: 0;
+}
+
+article h3 {
+    font-size: 105%;
+    padding-bottom: 0.25em;
+}
+
+article img {
+    float: right;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    border: 1px solid black;
+}
+section{
+    width: 525px;
+    float: right;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+aside{
+    width: 215px;
+    float: right;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+/* the styles for the header */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom:3px solid #931420;
+    padding: 1.5em 30px;
+    background-image: linear-gradient(180deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+}
+
+footer {
+    background-color: #931420;
+    clear: both;
+}
+header img {
+    float: left;
+}
+
+header h2 {
+    font-size: 170%;
+    color: #800000;
+}
+
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+}
+#nav_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#nav_menu li{
+    float: left;
+}
+#about_content{
+    display: none;
+    position: absolute;
+}
+#nav_menu li:hover #about_content{
+    display: block;
+}
+#about_content li{
+    float: none;
+    list-style-type: none;
+}
+#nav_menu::after{
+    display: block;
+    clear: none;
+
+}
+
+#nav_menu li a{
+    display: block;
+    width: 10rem; /*changed from code idk what 1/5 of body is since body elements are small as heck*/
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-decoration: none;
+    background-color: #800000;
+    color: white;
+    font-weight: bold;
+}
+
+#nav_menu .current {
+    color: yellow;
+}
+
+/* the styles for the section */
+main {
+    clear: left;
+}
+
+main section p {
+    padding-bottom: 0.5em;
+
+}
+section h1 {
+    color: #800000;
+}
+main section h2 {
+    font-size: 110%;
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+}
+
+main aside h2 {
+    font-size: 130%;
+    color: #800000;
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+}
+
+main h3 {
+    font-size: 105%;
+    padding-bottom: 0.25em;
+}
+
+aside h3 {
+    font-size: 105%;
+    padding-bottom: 0.25em;
+}
+main aside img {
+    padding-bottom: 1em;
+}
+
+main section blockquote {
+    padding-right: 2em;
+    padding-left: 2em;
+    font-style: italic;
+}
+
+main section ul {
+    padding-bottom: 0.25em;
+    padding-left: 1.25em;
+}
+
+main section li {
+    padding-bottom: 0.35em;
+}
+
+a:hover {
+    font-style: italic;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+/* the styles for the footer */
